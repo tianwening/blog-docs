@@ -1,3 +1,2 @@
-## 这是一个readme的文件
-[vuex](/vuex/)
-![这里放头像](~@images/avatar.jpeg)
+## 这里是readme的文件
+1. 你叫阿三大苏打
