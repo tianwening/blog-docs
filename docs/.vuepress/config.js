@@ -3,7 +3,7 @@ module.exports = {
   title: '天问ing',
   description: '这里是一段简单的描述信息',
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
-  base: '/docs/', // 部署时使用的真实路径
+  // base: '/docs/', // 部署时使用的真实路径
   themeConfig: {
     nav: [
       // 导航栏配置
