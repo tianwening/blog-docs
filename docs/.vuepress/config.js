@@ -5,17 +5,17 @@ module.exports = {
   head: [['link', { rel: 'icon', href: '/images/favicon.ico' }]],
   base: '/blog-docs/', // 部署时使用的真实路径
   themeConfig: {
-    nav: [
-      // 导航栏配置
-      { text: 'vuex', link: '/vuex/' },
-      { text: '百度', link: 'https://baidu.com' },
-    ],
+    nav: require('./nav/zh'),
   },
-  // configureWebpack: {
-  //   resolve: {
-  //     alias: {
-  //       '@alias': path.resolve(__dirname, './public/images/'),
-  //     },
-  //   },
-  // },
+  sidebar: {
+    '/vuex/': [
+      {
+        title: '指导',
+        collapsable: false,
+        children: ['', 'a'],
+      },
+    ],
+  }, // 侧边栏配置
+  // sidebarDepth: 3, // 侧边栏显示2级
+  extraWatchFiles: ['.vuepress/nav/zh.js'],
 };
