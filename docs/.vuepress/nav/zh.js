@@ -5,6 +5,10 @@ module.exports = [
     link: '/vuex/',
   },
   {
+    text: '地图',
+    link: '/map/',
+  },
+  {
     text: 'github',
     link: 'https://github.com/tianwening/blog-docs',
   },
