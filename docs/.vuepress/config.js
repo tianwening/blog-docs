@@ -12,6 +12,7 @@ module.exports = {
     smoothScroll: true,
     sidebar: {
       '/vuex/': [''],
+      '/nodejs/': getNodejsSidebar('基本使用'),
     },
     sidebarDepth: 2,
     prevLinks: true,
@@ -20,3 +21,13 @@ module.exports = {
   extraWatchFiles: ['.vuepress/nav/zh.js'],
   plugins: ['@vuepress/active-header-links', '@vuepress/back-to-top', '@vuepress/nprogress'],
 };
+
+function getNodejsSidebar(groupA) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: ['', 'require'],
+    },
+  ];
+}
