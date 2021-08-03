@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>require | 天问ing</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/blog-docs/images/favicon.ico">
+    <script src="http://api.map.baidu.com/api?v=3.0&amp;ak=nYmgzftSkvIDho5tGX2DIyBwDi8V9OMF"></script>
+    <meta name="description" content="一些学习过程中的随笔记录">
+    
+    <link rel="preload" href="/blog-docs/assets/css/0.styles.e5521fb7.css" as="style"><link rel="preload" href="/blog-docs/assets/js/app.52218ea2.js" as="script"><link rel="preload" href="/blog-docs/assets/js/2.84bda165.js" as="script"><link rel="preload" href="/blog-docs/assets/js/13.e1bdd123.js" as="script"><link rel="prefetch" href="/blog-docs/assets/js/10.cb080626.js"><link rel="prefetch" href="/blog-docs/assets/js/11.a593ed3b.js"><link rel="prefetch" href="/blog-docs/assets/js/12.9068e203.js"><link rel="prefetch" href="/blog-docs/assets/js/14.08dff43e.js"><link rel="prefetch" href="/blog-docs/assets/js/3.57c939c5.js"><link rel="prefetch" href="/blog-docs/assets/js/4.a6acd69e.js"><link rel="prefetch" href="/blog-docs/assets/js/5.c0d829e1.js"><link rel="prefetch" href="/blog-docs/assets/js/6.6320d94d.js"><link rel="prefetch" href="/blog-docs/assets/js/7.ad2aaf9f.js"><link rel="prefetch" href="/blog-docs/assets/js/8.c89d7bf5.js"><link rel="prefetch" href="/blog-docs/assets/js/9.6148fa9f.js">
+    <link rel="stylesheet" href="/blog-docs/assets/css/0.styles.e5521fb7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog-docs/" class="home-link router-link-active"><!----> <span class="site-name">天问ing</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog-docs/vuex/" class="nav-link">
+  vuex
+</a></div><div class="nav-item"><a href="/blog-docs/map/" class="nav-link">
+  地图
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="nodejs" class="dropdown-title"><span class="title">nodejs</span> <span class="arrow down"></span></button> <button type="button" aria-label="nodejs" class="mobile-dropdown-title"><span class="title">nodejs</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog-docs/nodejs/require.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  require
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/tianwening/blog-docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog-docs/vuex/" class="nav-link">
+  vuex
+</a></div><div class="nav-item"><a href="/blog-docs/map/" class="nav-link">
+  地图
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="nodejs" class="dropdown-title"><span class="title">nodejs</span> <span class="arrow down"></span></button> <button type="button" aria-label="nodejs" class="mobile-dropdown-title"><span class="title">nodejs</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog-docs/nodejs/require.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  require
+</a></li></ul></div></div><div class="nav-item"><a href="https://github.com/tianwening/blog-docs" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog-docs/nodejs/" aria-current="page" class="sidebar-link">/nodejs/</a></li><li><a href="/blog-docs/nodejs/require.html" aria-current="page" class="active sidebar-link">require</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog-docs/nodejs/require.html#myrequire" class="sidebar-link">myRequire</a></li><li class="sidebar-sub-header"><a href="/blog-docs/nodejs/require.html#resolvepath" class="sidebar-link">resolvePath</a></li><li class="sidebar-sub-header"><a href="/blog-docs/nodejs/require.html#module" class="sidebar-link">Module</a></li></ul></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="require"><a href="#require" class="header-anchor">#</a> require</h1> <p>nodejs里面模块的加载和解析使用的是commonjs规范，require可以用来把一个资源加载进来，可以把一个资源看成一个个的模块，require的作用就是读取文件的内容，根据不同的后缀实现不同的处理方式， 最终将结果放到module.exports属性上面进行导出</p> <h2 id="myrequire"><a href="#myrequire" class="header-anchor">#</a> myRequire</h2> <ol><li>首先需要把传递的路径解析成绝对路径，如果用户没有传递后缀会遍历支持的文件类型补全路径去进行解析</li> <li>先从缓存中读取， 如果缓存已经存在， 直接返回</li> <li>缓存不存在，新建一个模块，并根据改模块的id进行相应的缓存</li> <li>执行模块的load操作，并返回module.exports属性</li></ol> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">myRequire</span><span class="token punctuation">(</span><span class="token parameter">filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> filepath <span class="token operator">=</span> <span class="token function">resolvePath</span><span class="token punctuation">(</span>filename<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token comment">// 先从缓存里面获取</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>Module<span class="token punctuation">.</span>cached<span class="token punctuation">[</span>filepath<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> Module<span class="token punctuation">.</span>cached<span class="token punctuation">[</span>filepath<span class="token punctuation">]</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">let</span> module <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Module</span><span class="token punctuation">(</span>filepath<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  Module<span class="token punctuation">.</span>cached<span class="token punctuation">[</span>module<span class="token punctuation">.</span>id<span class="token punctuation">]</span> <span class="token operator">=</span> module<span class="token punctuation">;</span>
+
+  <span class="token comment">// 加载模块</span>
+  module<span class="token punctuation">.</span><span class="token function">load</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> module<span class="token punctuation">.</span>exports<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="resolvepath"><a href="#resolvepath" class="header-anchor">#</a> resolvePath</h2> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">resolvePath</span><span class="token punctuation">(</span><span class="token parameter">filename</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token comment">// 首先将路径解析成一个绝对的路径</span>
+  <span class="token keyword">let</span> filepath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">resolve</span><span class="token punctuation">(</span>__dirname<span class="token punctuation">,</span> filename<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>fs<span class="token punctuation">.</span><span class="token function">existsSync</span><span class="token punctuation">(</span>filepath<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> key <span class="token keyword">in</span> Module<span class="token punctuation">.</span>extension<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">if</span> <span class="token punctuation">(</span>fs<span class="token punctuation">.</span><span class="token function">existsSync</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>filepath<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>key<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>filepath<span class="token interpolation-punctuation punctuation">}</span></span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>key<span class="token interpolation-punctuation punctuation">}</span></span><span class="token template-punctuation string">`</span></span><span class="token punctuation">;</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> filepath<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span><span class="token string">'路径未找到'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><h2 id="module"><a href="#module" class="header-anchor">#</a> Module</h2> <div class="language- extra-class"><pre class="language-text"><code>class Module {
+  constructor(id) {
+    this.id = id;
+    this.exports = {};
+  }
+  load() {
+    //  获取文件后缀
+    let extname = path.extname(this.id);
+    Module.extension[extname](this);
+  }
+}
+
+Module.cached = {};
+
+Module.extension = {
+  '.js'(module) {
+    let content = fs.readFileSync(module.id, 'utf8'); // 先将内容读取出来
+    let template = `function compileFunction(module, exports, require, __filename, __dirname) {${content}}`;
+    let thisValue = (exports = module.exports);
+    let __filename = module.id;
+    let __dirname = path.dirname(module.id);
+    vm.runInThisContext(template);
+    compileFunction.call(thisValue, module, exports, myRequire, __filename, __dirname);
+  },
+  '.json'(module) {
+    let content = fs.readFileSync(module.id, 'utf8');
+    module.exports = JSON.parse(content);
+  },
+};
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/blog-docs/nodejs/" class="prev router-link-active">
+        /nodejs/
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/blog-docs/assets/js/app.52218ea2.js" defer></script><script src="/blog-docs/assets/js/2.84bda165.js" defer></script><script src="/blog-docs/assets/js/13.e1bdd123.js" defer></script>
+  </body>
+</html>
