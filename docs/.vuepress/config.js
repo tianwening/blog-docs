@@ -14,6 +14,7 @@ module.exports = {
       '/js/': ['promise'],
       '/vuex/': [''],
       '/nodejs/': ['require'],
+      '/design-patterns/': ['observer', 'publish-subscribe'],
     },
     sidebarDepth: 2,
     prevLinks: true,
