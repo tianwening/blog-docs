@@ -11,8 +11,9 @@ module.exports = {
     nav: require('./nav/zh'),
     smoothScroll: true,
     sidebar: {
+      '/js/': ['promise'],
       '/vuex/': [''],
-      '/nodejs/': ['', 'require'],
+      '/nodejs/': ['require'],
     },
     sidebarDepth: 2,
     prevLinks: true,

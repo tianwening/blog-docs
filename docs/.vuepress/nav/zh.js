@@ -1,6 +1,15 @@
 // 中文导航的配置
 module.exports = [
   {
+    text: 'js',
+    items: [
+      {
+        text: 'promise',
+        link: '/js/promise',
+      },
+    ],
+  },
+  {
     text: 'vuex',
     link: '/vuex/',
   },
