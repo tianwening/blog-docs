@@ -180,7 +180,7 @@ Promise.defer = Promise.deferred = function () {
 };
 ```
 
-### promise完整代码
+## promise完整代码
 
 ```js
 const PENDING = 'pending';
