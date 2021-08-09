@@ -9,7 +9,7 @@
     <script src="http://api.map.baidu.com/api?v=3.0&amp;ak=nYmgzftSkvIDho5tGX2DIyBwDi8V9OMF"></script>
     <meta name="description" content="一些学习过程中的随笔记录">
     
-    <link rel="preload" href="/blog-docs/assets/css/0.styles.07f061b1.css" as="style"><link rel="preload" href="/blog-docs/assets/js/app.081fe4b6.js" as="script"><link rel="preload" href="/blog-docs/assets/js/2.461303c0.js" as="script"><link rel="preload" href="/blog-docs/assets/js/13.5911141c.js" as="script"><link rel="prefetch" href="/blog-docs/assets/js/10.c6ba7553.js"><link rel="prefetch" href="/blog-docs/assets/js/11.2cf5f658.js"><link rel="prefetch" href="/blog-docs/assets/js/12.f7714c86.js"><link rel="prefetch" href="/blog-docs/assets/js/14.059d6b80.js"><link rel="prefetch" href="/blog-docs/assets/js/15.03894948.js"><link rel="prefetch" href="/blog-docs/assets/js/16.1f28eb49.js"><link rel="prefetch" href="/blog-docs/assets/js/3.57c939c5.js"><link rel="prefetch" href="/blog-docs/assets/js/4.a6acd69e.js"><link rel="prefetch" href="/blog-docs/assets/js/5.46ebecc5.js"><link rel="prefetch" href="/blog-docs/assets/js/6.6320d94d.js"><link rel="prefetch" href="/blog-docs/assets/js/7.ad2aaf9f.js"><link rel="prefetch" href="/blog-docs/assets/js/8.c89d7bf5.js"><link rel="prefetch" href="/blog-docs/assets/js/9.6148fa9f.js">
+    <link rel="preload" href="/blog-docs/assets/css/0.styles.07f061b1.css" as="style"><link rel="preload" href="/blog-docs/assets/js/app.e90b37b4.js" as="script"><link rel="preload" href="/blog-docs/assets/js/2.461303c0.js" as="script"><link rel="preload" href="/blog-docs/assets/js/13.1b1c354f.js" as="script"><link rel="prefetch" href="/blog-docs/assets/js/10.cb080626.js"><link rel="prefetch" href="/blog-docs/assets/js/11.0c491aa1.js"><link rel="prefetch" href="/blog-docs/assets/js/12.60b2b09d.js"><link rel="prefetch" href="/blog-docs/assets/js/14.8fcc29a6.js"><link rel="prefetch" href="/blog-docs/assets/js/15.c0d528b8.js"><link rel="prefetch" href="/blog-docs/assets/js/16.90c910e1.js"><link rel="prefetch" href="/blog-docs/assets/js/3.57c939c5.js"><link rel="prefetch" href="/blog-docs/assets/js/4.a6acd69e.js"><link rel="prefetch" href="/blog-docs/assets/js/5.46ebecc5.js"><link rel="prefetch" href="/blog-docs/assets/js/6.6320d94d.js"><link rel="prefetch" href="/blog-docs/assets/js/7.ad2aaf9f.js"><link rel="prefetch" href="/blog-docs/assets/js/8.c89d7bf5.js"><link rel="prefetch" href="/blog-docs/assets/js/9.6148fa9f.js">
     <link rel="stylesheet" href="/blog-docs/assets/css/0.styles.07f061b1.css">
   </head>
   <body>
@@ -127,7 +127,7 @@
 
     <span class="token keyword">return</span> promise2<span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
-</code></pre></div><h2 id="resolvepromise"><a href="#resolvepromise" class="header-anchor">#</a> resolvePromise</h2> <p><img src="https://cdn.tianwening.top/images/image-20210806104803064.png" alt="image-20210806104803064"></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">resolvePromise</span><span class="token punctuation">(</span><span class="token parameter">promise2<span class="token punctuation">,</span> x<span class="token punctuation">,</span> resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</code></pre></div><h2 id="resolvepromise"><a href="#resolvepromise" class="header-anchor">#</a> resolvePromise</h2> <p><img src="http://cdn.tianwening.top/images/image-20210806104803064.png" alt="image-20210806104803064"></p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">function</span> <span class="token function">resolvePromise</span><span class="token punctuation">(</span><span class="token parameter">promise2<span class="token punctuation">,</span> x<span class="token punctuation">,</span> resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   <span class="token keyword">if</span> <span class="token punctuation">(</span>promise2 <span class="token operator">===</span> x<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">return</span> <span class="token function">reject</span><span class="token punctuation">(</span><span class="token keyword">new</span> <span class="token class-name">TypeError</span><span class="token punctuation">(</span><span class="token string">'Chaining cycle detected for promise #&lt;Promise&gt;'</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
@@ -169,16 +169,16 @@
     <span class="token function">resolve</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
-</code></pre></div><h2 id="promise测试"><a href="#promise测试" class="header-anchor">#</a> promise测试</h2> <p>npm或者yarn安装promises-aplus-tests库， 执行promises-aplus-tests 具体文件名即可</p> <div class="language- extra-class"><pre class="language-text"><code>Promise.defer = Promise.deferred = function () {
-  let dtd = {};
+</code></pre></div><h2 id="promise测试"><a href="#promise测试" class="header-anchor">#</a> promise测试</h2> <p>npm或者yarn安装promises-aplus-tests库， 执行promises-aplus-tests 具体文件名即可</p> <div class="language-js extra-class"><pre class="language-js"><code>Promise<span class="token punctuation">.</span>defer <span class="token operator">=</span> Promise<span class="token punctuation">.</span><span class="token function-variable function">deferred</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">let</span> dtd <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
 
-  dtd.promise = new Promise((resolve, reject) =&gt; {
-    dtd.resolve = resolve;
-    dtd.reject = reject;
-  });
+  dtd<span class="token punctuation">.</span>promise <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Promise</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">resolve<span class="token punctuation">,</span> reject</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token punctuation">{</span>
+    dtd<span class="token punctuation">.</span>resolve <span class="token operator">=</span> resolve<span class="token punctuation">;</span>
+    dtd<span class="token punctuation">.</span>reject <span class="token operator">=</span> reject<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-  return dtd;
-};
+  <span class="token keyword">return</span> dtd<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
 </code></pre></div><h3 id="promise完整代码"><a href="#promise完整代码" class="header-anchor">#</a> promise完整代码</h3> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> <span class="token constant">PENDING</span> <span class="token operator">=</span> <span class="token string">'pending'</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> <span class="token constant">FULFILLED</span> <span class="token operator">=</span> <span class="token string">'fulfilled'</span><span class="token punctuation">;</span>
 <span class="token keyword">const</span> <span class="token constant">REJECTED</span> <span class="token operator">=</span> <span class="token string">'rejected'</span><span class="token punctuation">;</span>
@@ -336,6 +336,6 @@ Promise<span class="token punctuation">.</span>defer <span class="token operator
 
 module<span class="token punctuation">.</span>exports <span class="token operator">=</span> Promise<span class="token punctuation">;</span>
 </code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
-    <script src="/blog-docs/assets/js/app.081fe4b6.js" defer></script><script src="/blog-docs/assets/js/2.461303c0.js" defer></script><script src="/blog-docs/assets/js/13.5911141c.js" defer></script>
+    <script src="/blog-docs/assets/js/app.e90b37b4.js" defer></script><script src="/blog-docs/assets/js/2.461303c0.js" defer></script><script src="/blog-docs/assets/js/13.1b1c354f.js" defer></script>
   </body>
 </html>
