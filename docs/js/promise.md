@@ -114,7 +114,7 @@ then(onFulfilled, onRejected) {
 
 ## resolvePromise
 
-![image-20210806104803064](http://cdn.tianwening.top/images/image-20210806104803064.png)
+![image-20210806104803064](https://cdn.tianwening.top/images/image-20210806104803064.png)
 
 ```js
 function resolvePromise(promise2, x, resolve, reject) {
