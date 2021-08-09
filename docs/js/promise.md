@@ -114,7 +114,7 @@ then(onFulfilled, onRejected) {
 
 ## resolvePromise
 
-![image-20210806104803064](https://cdn.tianwening.top/images/image-20210806104803064.png)
+![image-20210806104803064](http://cdn.tianwening.top/images/image-20210806104803064.png)
 
 ```js
 function resolvePromise(promise2, x, resolve, reject) {
@@ -167,7 +167,7 @@ function resolvePromise(promise2, x, resolve, reject) {
 
 npm或者yarn安装promises-aplus-tests库， 执行promises-aplus-tests 具体文件名即可
 
-```
+```js
 Promise.defer = Promise.deferred = function () {
   let dtd = {};
 
