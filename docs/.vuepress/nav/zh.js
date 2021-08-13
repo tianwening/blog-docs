@@ -10,8 +10,13 @@ module.exports = [
     ],
   },
   {
-    text: 'vuex',
-    link: '/vuex/',
+    text: 'vue',
+    items: [
+      {
+        text: 'vuex',
+        link: '/vue/vuex/',
+      },
+    ],
   },
   {
     text: '地图',
@@ -28,13 +33,7 @@ module.exports = [
   },
   {
     text: '设计模式',
-    link: '/design-patterns/observer'
-    // items: [
-    //   {
-    //     text: '观察者',
-    //     link: '/design-patterns/observer',
-    //   },
-    // ],
+    link: '/design-patterns/observer',
   },
   {
     text: 'github',

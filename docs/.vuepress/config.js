@@ -4,7 +4,7 @@ module.exports = {
   description: '一些学习过程中的随笔记录',
   head: [
     ['link', { rel: 'icon', href: '/images/favicon.ico' }],
-    ['script', { src: 'http://api.map.baidu.com/api?v=3.0&ak=nYmgzftSkvIDho5tGX2DIyBwDi8V9OMF' }],
+    ['script', { src: 'https://api.map.baidu.com/api?v=3.0&ak=nYmgzftSkvIDho5tGX2DIyBwDi8V9OMF' }],
   ],
   base: '/blog-docs/', // 部署时使用的真实路径
   themeConfig: {
@@ -12,7 +12,7 @@ module.exports = {
     smoothScroll: true,
     sidebar: {
       '/js/': ['promise'],
-      '/vuex/': [''],
+      '/vue/vuex/': [''],
       '/nodejs/': ['require'],
       '/design-patterns/': ['observer', 'publish-subscribe'],
     },
