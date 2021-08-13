@@ -13,6 +13,7 @@ module.exports = {
     sidebar: {
       '/js/': ['promise'],
       '/vue/vuex/': [''],
+      '/vue/vue3/': ['', 'reactivity'],
       '/nodejs/': ['require'],
       '/design-patterns/': ['observer', 'publish-subscribe'],
     },

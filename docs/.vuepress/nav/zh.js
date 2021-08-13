@@ -16,6 +16,10 @@ module.exports = [
         text: 'vuex',
         link: '/vue/vuex/',
       },
+      {
+        text: 'vue3',
+        link: '/vue/vue3/',
+      },
     ],
   },
   {
